@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tests</title>
+</head>
+<body>
+</body>
+<script>
+  
+</script>
+<script src="Testr.js"></script>
+<script>
+  let x = 5;
+  x = x * 2 - 3 / 5 % 3;
+  assert(x == 9.4, 'Output: ' + x);
+  
+  function beep() {
+    console.log('Boop!');
+  }
+  
+  const m_beep = mockFn(beep);
+  m_beep();
+  m_beep();
+  
+  assert(numberOfCalls(m_beep) == 2, 'Not called twice?');
+</script>
+</html>
