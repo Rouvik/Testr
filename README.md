@@ -17,7 +17,8 @@ Just add the Testr.js library to your code as a source file
 *hasReturnedOnce*: Returns true if the function has returned once<br><br>
 
 # Example:
-<code>let x = 5;
+```
+let x = 5;
 x = x * 2 - 3 / 5 % 3;
 assert(x == 9.4, 'Output: ' + x);
 function beep() {
@@ -27,7 +28,7 @@ const m_beep = mockFn(beep);
 m_beep();
 m_beep(); 
 assert(numberOfCalls(m_beep) == 2, 'Not called twice?');
-</code>
+```
 
 # Author
-Rouvik Maji [gmail](mailto: majirouvik@gmail.com)
+Rouvik Maji [gmail](mailto:majirouvik@gmail.com)
