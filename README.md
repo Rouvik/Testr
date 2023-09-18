@@ -34,4 +34,4 @@ assert(numberOfCalls(m_beep) == 2, 'Not called twice?');
 </code>
 
 # Author
-Rouvik Maji (gmail)[mailto: majirouvik@gmail.com]
+Rouvik Maji [gmail](mailto: majirouvik@gmail.com)
